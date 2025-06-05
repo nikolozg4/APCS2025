@@ -25,11 +25,4 @@ public class SignedText
         {
           return text.substring(sign.length()) + sign;
         }
-        else if (text.substring(inputText.length()-sign.length()).equals(sign)
-                 {
-          return text;
-        }
-      }
-      return text+sign;
-    }
-  }
+       
